@@ -1,0 +1,85 @@
+@charset "UTF-8";
+nav {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid #79bff8;
+    max-width: 80%;
+    border-radius: 10px;
+    background-color: #0000ffb7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo a img {
+    width: 100px;
+}
+
+.icon {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.icon form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid grey;
+    float: left;
+    width: 500px;
+    background: #f1f1f1;
+}
+
+.icon form button {
+    float: left;
+    width: 130px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.icon form button:hover {
+    background: #0b7dda;
+}
+
+.right {
+    margin-left: 16%;
+    font-size: x-large;
+}
+
+.tow {
+    margin-left: 16%;
+    font-size: large;
+}
+
+.search {
+    margin-left: 16%;
+    font-size: large;
+}
+
+.erreur {
+    margin-left: 16%;
+    font-size: large;
+    color: red;
+}
+
+@media only screen and (min-width:300px) and (max-width:1300px) {
+    .icon form input[type=text] {
+        width: 35vw;
+    }
+    .icon form button {
+        width: 15vw;
+    }
+}

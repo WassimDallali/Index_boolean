@@ -1,0 +1,96 @@
+body {
+    background-color: #0000ffb7;
+    width: 70vw;
+    height: 60vh;
+}
+
+.icon {
+    box-sizing: border-box;
+    box-shadow: 0px 3px 0px #00b7ff;
+    position: absolute;
+    border-radius: 5px;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+}
+
+.logo {
+    position: absolute;
+    top: 25%;
+    left: 42%;
+    transform: translate(-25%, -42%);
+}
+
+.logo img {
+    width: 80%;
+}
+
+.icon form input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid grey;
+    float: left;
+    width: 500px;
+    background: #f1f1f1;
+}
+
+.icon form button {
+    float: left;
+    width: 130px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.icon form button:hover {
+    background: #0b7dda;
+}
+
+.icon form ::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (min-width:300px) and (max-width:1300px) {
+    .icon {
+        box-sizing: border-box;
+        position: absolute;
+        box-shadow: none;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -60%);
+    }
+    .icon form input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        float: left;
+        width: 50vw;
+        background: #f1f1f1;
+        box-shadow: 0px 3px 0px #00b7ff;
+    }
+    .icon form button {
+        float: left;
+        margin-top: 20px;
+        margin-left: 30%;
+        width: 20vw;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border-radius: 5px;
+        border: 1px solid grey;
+        border-left: none;
+        cursor: pointer;
+    }
+}
